@@ -1,12 +1,14 @@
-import React from 'react'
-import Footer from '@/components/Footer'
+import React from "react";
+import Footer from "@/components/Footer";
+import Testimonilas from "@/components/Testimonials";
 
 const index = () => {
   return (
-    <div>Blogs
-        <Footer/>
+    <div>
+      <Testimonilas />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default index
+export default index;
