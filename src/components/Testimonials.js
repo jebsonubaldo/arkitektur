@@ -71,9 +71,9 @@ export default function Testimonilas() {
             </div>
             <div className="mt-10">
               <p className="text-gray-600 font-inter text-base font-normal">
-                “Being able to work with the exterior is an extra ordinary
-                things they provide execelent service and the results given are
-                also very satisfying”
+                “At that time I wanted to make a chair, then I want Arkitektur to
+                make the chair and after was finished the results were
+                unexpected also the results”
               </p>
             </div>
           </div>
