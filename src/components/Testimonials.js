@@ -111,7 +111,7 @@ export default function Testimonilas() {
           </div>
         </div>
         <div className="text-center">
-          <button type="" className=" p-4 mt-20 bg-green text-white">
+          <button type="" className=" px-6 py-4 mt-20 bg-green text-white">
             View More
           </button>
         </div>
