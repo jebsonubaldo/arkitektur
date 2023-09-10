@@ -15,6 +15,9 @@ module.exports = {
       backgroundColor: {
         green: "#006D5B",
       },
+      textColor: {
+        green: "#006D5B",
+      },
     },
   },
   plugins: [],

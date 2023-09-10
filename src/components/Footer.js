@@ -18,16 +18,16 @@ export default function Footer() {
           <h1 className="font-inter text-lg font-medium">Solutions</h1>
           <ul className="font-inter text-base font-normal space-y-3 mt-6">
             <li>Design Construction</li>
-            <li>Design Construction</li>
-            <li>Design Construction</li>
+            <li>House Renovation</li>
+            <li>Interior Design</li>
           </ul>
         </div>
         <div class="p-4 lg:col-span-4 xl:col-span-1 text-white">
           <h1 className="font-inter text-lg font-medium">Office Support</h1>
           <ul className="font-inter text-base font-normal space-y-3 mt-6">
-            <li>Design Construction</li>
-            <li>Design Construction</li>
-            <li>Design Construction</li>
+            <li>Help and Center</li>
+            <li>Privacy and Policy</li>
+            <li>Terms and Condition</li>
           </ul>
         </div>
 
@@ -43,9 +43,9 @@ export default function Footer() {
                 name=""
                 value=""
                 placeholder="Enter Email Adress"
-                className="p-2"
+                className="p-3"
               />
-              <button type="" className="bg-yellow-300 text-black p-2">
+              <button type="" className="bg-yellow-300 text-green font-semibold p-3">
                 Send
               </button>
             </div>

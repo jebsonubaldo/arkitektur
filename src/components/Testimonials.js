@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Testimonilas() {
   return (
-    <section className="p-20 bg-FAFAFA">
+    <section className="p-20 bg-gray-50">
       <div>
         <div className="text-center">
           <h1 className="text-gray-500 font-inter text-base font-medium">
@@ -13,7 +13,7 @@ export default function Testimonilas() {
           </span>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-14">
-          <div class="p-8">
+          <div class="p-8 bg-white shadow-lg">
             <div className="flex items-center">
               <Image
                 src="/images/image_1.jpg"
@@ -45,10 +45,10 @@ export default function Testimonilas() {
               </p>
             </div>
           </div>
-          <div class="p-8">
+          <div class="p-8  bg-white shadow-lg">
             <div className="flex items-center">
               <Image
-                src="/images/image_1.jpg"
+                src="/images/image_2.jpg"
                 alt=""
                 width={60}
                 height={60}
@@ -77,10 +77,10 @@ export default function Testimonilas() {
               </p>
             </div>
           </div>
-          <div class="p-8">
+          <div class="p-8  bg-white shadow-lg">
             <div className="flex items-center">
               <Image
-                src="/images/image_1.jpg"
+                src="/images/image_3.jpg"
                 alt=""
                 width={60}
                 height={60}
