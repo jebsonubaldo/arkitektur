@@ -1,18 +1,18 @@
 import Image from "next/image";
-import { Montserrat } from "next/font/google";
-import Footer from "@/components/Footer";
-import Testimonilas from "@/components/Testimonials";
-import Process from "@/components/Process";
+import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
+import Process from "@/components/Process";
+import Testimonials from "@/components/Testimonials";
+import Footer from "@/components/Footer";
 
-const montserrat = Montserrat({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className={`${montserrat.className}`}>
+    <div className={`${inter.className}`}>
       <Navbar />
       <Process />
-      <Testimonilas />
+      <Testimonials />
       <Footer />
     </div>
   );
