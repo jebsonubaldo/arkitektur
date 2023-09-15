@@ -68,7 +68,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="/blog"
+                  href="/blogs"
                   class="block py-2 pl-3 pr-4 text-white  rounded md:bg-transparent md:text-black md:p-0 md:dark:text-[#006D5B]"
                   aria-current="page"
                 >
