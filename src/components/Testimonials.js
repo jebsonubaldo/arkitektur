@@ -5,12 +5,10 @@ export default function Testimonilas() {
     <section className="p-20 bg-gray-50">
       <div>
         <div className="text-center">
-          <h1 className="text-gray-500 font-inter text-base font-medium">
+          <p className="mb-4 text-md leading-8 text-gray-600">
             Testimonials
-          </h1>
-          <span className="text-5xl font-playfair font-semibold leading-20 text-gray-700">
-            What Our Customers Are Saying
-          </span>
+          </p>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">What Our Customers Are Saying</h2>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-14">
           <div class="p-8 bg-white shadow-lg">
