@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
+import About from "@/components/About";
 import Process from "@/components/Process";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
@@ -13,6 +14,7 @@ export default function Home() {
     <div className={`${inter.className}`}>
       <Navbar />
       <Services />
+      <About />
       <Process />
       <Testimonials />
       <Footer />
