@@ -31,7 +31,7 @@ export default function Example() {
                       <h3 className="text-gray-700 font-inter font-semibold text-lg">
                         Design Building
                       </h3>
-                      <p className="text-gray-500 font-inter text-md font-normal leading-[24px]">
+                      <p className="text-[#999999] font-inter text-md font-normal leading-[24px]">
                         First things you determine the concept and model you want,
                         then choose what colors and materials
                       </p>
@@ -53,7 +53,7 @@ export default function Example() {
                       <h3 className="text-gray-700 font-inter font-semibold text-lg">
                         Preliminary Drawing
                       </h3>
-                      <p className="text-gray-500 font-inter text-md font-normal leading-[24px]">
+                      <p className="text-[#999999] font-inter text-md font-normal leading-[24px]">
                         When the briefing process is complete and what the client
                         wants has been achieved then we carry out
                       </p>
@@ -75,7 +75,7 @@ export default function Example() {
                       <h3 className="text-gray-700 font-inter font-semibold text-lg">
                         Construction Details
                       </h3>
-                      <p className="text-gray-500 font-inter text-md font-normal leading-[24px]">
+                      <p className="text-[#999999] font-inter text-md font-normal leading-[24px]">
                         After the process is complete, we will immediately carry out
                         of the finishing stage and we do it care
                       </p>
@@ -86,7 +86,7 @@ export default function Example() {
               
             </div>
             <div className="lg:pr-4">
-           
+              <img src="/images/image_3.jpg" alt="image_3" className="h-full w-full object-cover object-center" />
             </div>
           </div>
         </div>
