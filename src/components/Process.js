@@ -11,10 +11,8 @@ export default function Example() {
           <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">        
             <div>
               <div className="text-base leading-7 text-gray-700 lg:max-w-lg">
-                <p className="mb-4 text-md leading-8 text-[#A4A4A4]">
-                  How It Works
-                </p>
-                <h2 className={`${playfair_display.className} mb-12 text-3xl font-bold text-[#333333] sm:text-4xl`} style={{ lineHeight: '1.5' }}>We provide the best process experience</h2>
+                <p className="mb-4 text-md leading-8 text-[#A4A4A4] text-center sm:text-left">How It Works</p>
+                <h2 className={`${playfair_display.className} mb-12 text-3xl font-bold text-[#333333] text-center sm:text-left sm:text-4xl`} style={{ lineHeight: '1.5' }}>We provide the best process experience</h2>
                 <div>
                   <div className="relative flex items-center mt-10 bg-white shadow-lg p-3">
                     <Image

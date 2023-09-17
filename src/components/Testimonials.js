@@ -46,7 +46,7 @@ export default function Example() {
           <div className="-mt-8 sm:-mx-4 sm:grid sm:grid-cols-3">
             {testimonials.map((testimonial) => (
               <div key={testimonial.author.handle} className="sm:p-4">
-                <figure className="rounded-2xl bg-white p-8 text-sm leading-6">
+                <figure className="rounded-2xl bg-white p-8 mb-8 text-sm leading-6">
                   <figcaption className="flex items-center gap-x-4">
                     <img className="h-10 w-10 rounded-full bg-gray-50" src={testimonial.author.imageUrl} alt="" />
                     <div>
@@ -63,7 +63,7 @@ export default function Example() {
           </div>
         </div>
         <div className="mt-10 text-center">
-          <button type="button" class="text-gray-200 bg-green font-medium text-sm px-4 py-3 text-center">
+          <button type="button" class="text-gray-200 bg-[#006D5B] font-medium text-sm px-4 py-3 text-center hover:bg-[#FFFF99] hover:text-[#006D5B]">
             View More
           </button>
         </div>

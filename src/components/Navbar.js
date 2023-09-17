@@ -6,13 +6,7 @@ export default function Navbar() {
       <nav class="bg-white fixed w-full z-20 top-0 left-0 border-b border-gray-200">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="/" class="flex items-center">
-            <Image
-              src="/images/favicon.png"
-              alt=""
-              width={50}
-              height={0}
-              className="w-[30px] h-[5vh]"
-            />
+            <img className="h-7" src="/images/favicon.png" alt="arkitektur_logo"/>
             <span class=" ml-2 text-xl font-semibold whitespace-nowrap text-black">
               Arkitektur
             </span>

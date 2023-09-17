@@ -75,13 +75,7 @@ export default function Example() {
             <div className="">
               <div>
                 <a href="/" class="flex items-center">
-                  <Image
-                    src="/images/favicon.png"
-                    alt=""
-                    width={50}
-                    height={0}
-                    className="w-[30px] h-[5vh]"
-                  />
+                  <img className="h-7" src="/images/favicon.png" alt="arkitektur_logo"/>
                   <span class=" ml-2 text-xl font-semibold whitespace-nowrap dark:text-white">
                     Arkitektur
                   </span>

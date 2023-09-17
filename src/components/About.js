@@ -19,22 +19,20 @@ const stats = [
               <img
                 src="/images/image_2.jpg"
                 alt="image_2"
-                className="object-cover object-center group-hover:opacity-75"
+                className="object-contain h-300 object-center group-hover:opacity-75"
               />
             </div>
             <div>
               <div className="text-base leading-7 text-gray-700 lg:max-w-lg">
-                <p className="mb-4 text-md leading-8 text-[#A4A4A4]">
-                  About Us
-                </p>
-                <h2 className={`${playfair_display.className} mb-12 text-3xl font-bold text-[#333333] sm:text-4xl`} style={{ lineHeight: '1.5' }}>Get to know us more to find the best results</h2>
+                <p className="mb-4 text-md leading-8 text-[#A4A4A4] text-center sm:text-left">About Us</p>
+                <h2 className={`${playfair_display.className} mb-12 text-3xl font-bold text-[#333333] text-center sm:text-left sm:text-4xl`} style={{ lineHeight: '1.5' }}>Get to know us more to find the best results</h2>
                 <div className="max-w-xl">
-                  <p className="mt-6 text-[#999999]">
-                  You don’t have to worry about the results because all of these interiors are made by people who are professionals in their fieldds with an elegant and luxurious style and with premium quality materials
+                  <p className="mt-4 text-[#999999]">
+                  You don’t have to worry about the results because all of these interiors are made by people who are professionals in their fields with an elegant and luxurious style and with premium quality materials.
                   </p>
                 </div>
               </div>
-              <dl className="mt-10 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4">
+              <dl className="mt-10 grid grid-cols-2 gap-8 sm:grid-cols-5">
                 {stats.map((stat, statIdx) => (
                   <div key={statIdx}>
                     <dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-[#006D5B]">{stat.value}</dd>
@@ -43,7 +41,7 @@ const stats = [
                 ))}
               </dl>
               <div className="mt-10 flex">
-                <button type="button" class="text-gray-200 bg-green font-medium text-sm px-4 py-3 text-center">
+                <button type="button" class="text-gray-200 bg-[#006D5B] font-medium text-sm px-4 py-3 text-center hover:bg-[#FFFF99] hover:text-[#006D5B]">
                   Learn More
                 </button>
               </div>

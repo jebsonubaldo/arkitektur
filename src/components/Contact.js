@@ -1,4 +1,5 @@
 import { Playfair_Display } from "next/font/google";
+import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 
 const playfair_display = Playfair_Display({ subsets: ["latin"] });
 
@@ -11,27 +12,24 @@ export default function Example() {
             <p className="mb-4 text-md leading-8 text-[#A4A4A4]">
               Get In Touch
             </p>
-            <h2 className={`${playfair_display.className} mb-12 text-3xl font-bold text-[#333333] sm:text-4xl`} style={{ lineHeight: '1.5' }}>Exploring Design and Inspiring Visions</h2>
+            <h2 className={`${playfair_display.className} mb-12 text-3xl font-bold text-[#333333] sm:text-4xl`} style={{ lineHeight: '1.5' }}>Connect with us today and unlock a world of possibilities</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt
-              integer elementum id sem. Arcu sed malesuada et magna.
+              Our team is dedicated to understanding your needs and providing tailored solutions that bring the best results. Let's start a conversation and embark on a journey together.
             </p>
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
               <div className="flex gap-x-4">
                 <dt className="flex-none">
                   <span className="sr-only">Telephone</span>
-          
+                  <BuildingOffice2Icon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
                 <dd>
-                  545 Mavis Island
-                  <br />
-                  Chicago, IL 99191
+                  Paseo De Roxas St Cor Makati Ave, Cor Ayala Ave, Makati, 1209 Metro Manila
                 </dd>
               </div>
               <div className="flex gap-x-4">
                 <dt className="flex-none">
                   <span className="sr-only">Telephone</span>
-
+                  <PhoneIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
                 <dd>
                   <a className="hover:text-gray-900" href="tel:+1 (555) 234-5678">
@@ -42,18 +40,18 @@ export default function Example() {
               <div className="flex gap-x-4">
                 <dt className="flex-none">
                   <span className="sr-only">Telephone</span>
-            
+                  <EnvelopeIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
                 <dd>
                   <a className="hover:text-gray-900" href="mailto:hello@example.com">
-                    hello@example.com
+                    info@arkitektur.com
                   </a>
                 </dd>
               </div>
             </dl>
           </div>
         </div>
-        <form action="#" method="POST" className="px-6 pb-24 sm:pb-32 lg:px-8 lg:py-32">
+        <form action="#" method="POST" className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
           <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>
@@ -128,11 +126,8 @@ export default function Example() {
               </div>
             </div>
             <div className="mt-8 flex justify-end">
-              <button
-                type="submit"
-                className="rounded-md bg-[#006D5B] text-white px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#FFFF99] hover:text-[#006D5B] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                Send message
+              <button type="button" class="text-gray-200 bg-[#006D5B] font-medium text-sm px-4 py-3 text-center hover:bg-[#FFFF99] hover:text-[#006D5B]">
+                Send Message
               </button>
             </div>
           </div>
