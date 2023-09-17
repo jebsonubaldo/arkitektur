@@ -1,10 +1,17 @@
+import { Playfair_Display } from "next/font/google";
+
+const playfair_display = Playfair_Display({ subsets: ["latin"] });
+
 export default function Example() {
   return (
     <div className="relative isolate bg-white">
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
         <div className="relative px-6 pb-20">
           <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900">Get in touch</h2>
+            <p className="mb-4 text-md leading-8 text-[#A4A4A4]">
+              Get In Touch
+            </p>
+            <h2 className={`${playfair_display.className} mb-12 text-3xl font-bold text-[#333333] sm:text-4xl`} style={{ lineHeight: '1.5' }}>Exploring Design and Inspiring Visions</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt
               integer elementum id sem. Arcu sed malesuada et magna.
@@ -46,7 +53,7 @@ export default function Example() {
             </dl>
           </div>
         </div>
-        <form action="#" method="POST" className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
+        <form action="#" method="POST" className="px-6 pb-24 sm:pb-32 lg:px-8 lg:py-32">
           <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>

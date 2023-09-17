@@ -1,14 +1,17 @@
 import Image from "next/image";
+import { Playfair_Display } from "next/font/google";
+
+const playfair_display = Playfair_Display({ subsets: ["latin"] });
 
 export default function Testimonilas() {
   return (
     <section className="p-20 bg-gray-50">
       <div>
         <div className="text-center">
-          <p className="mb-4 text-md leading-8 text-gray-600">
+          <p className="mb-4 text-md leading-8 text-[#A4A4A4]">
             Testimonials
           </p>
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">What Our Customers Are Saying</h2>
+          <h2 className={`${playfair_display.className} mb-12 text-3xl font-bold text-[#333333] sm:text-4xl`} style={{ lineHeight: '1.5' }}>What Our Customers Are Saying</h2>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-14">
           <div class="p-8 bg-white shadow-lg">
@@ -109,8 +112,8 @@ export default function Testimonilas() {
           </div>
         </div>
         <div className="text-center">
-          <button type="" className=" px-6 py-4 mt-20 bg-green text-white">
-            View More
+          <button type="button" class="text-gray-200 bg-green font-medium text-sm px-4 py-3 mt-12 text-center">
+              View More
           </button>
         </div>
       </div>
