@@ -14,7 +14,7 @@ export default function Example() {
             </p>
             <h2 className={`${playfair_display.className} mb-12 text-3xl font-bold text-[#333333] sm:text-4xl`} style={{ lineHeight: '1.5' }}>Connect with us today and unlock a world of possibilities</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Our team is dedicated to understanding your needs and providing tailored solutions that bring the best results. Let's start a conversation and embark on a journey together.
+              Our team is dedicated to understanding your needs and providing tailored solutions that bring the best results. Lets start a conversation and embark on a journey together.
             </p>
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
               <div className="flex gap-x-4">
@@ -126,7 +126,7 @@ export default function Example() {
               </div>
             </div>
             <div className="mt-8 flex justify-end">
-              <button type="button" class="text-gray-200 bg-[#006D5B] font-medium text-sm px-4 py-3 text-center hover:bg-[#FFFF99] hover:text-[#006D5B]">
+              <button type="button" className="text-gray-200 bg-[#006D5B] font-medium text-sm px-4 py-3 text-center hover:bg-[#FFFF99] hover:text-[#006D5B]">
                 Send Message
               </button>
             </div>

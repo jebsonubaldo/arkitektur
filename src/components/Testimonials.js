@@ -1,4 +1,5 @@
 import { Playfair_Display } from "next/font/google";
+import Image from "next/image";
 
 const playfair_display = Playfair_Display({ subsets: ["latin"] });
 
@@ -48,7 +49,7 @@ export default function Example() {
               <div key={testimonial.author.handle} className="sm:p-4">
                 <figure className="rounded-2xl bg-white p-8 mb-8 text-sm leading-6">
                   <figcaption className="flex items-center gap-x-4">
-                    <img className="h-10 w-10 rounded-full bg-gray-50" src={testimonial.author.imageUrl} alt="" />
+                    <Image width={0} height={0} className="h-10 w-10 rounded-full bg-gray-50" src={testimonial.author.imageUrl} alt="" />
                     <div>
                       <div className="font-semibold text-gray-900">{testimonial.author.name}</div>
                       <div className="text-[#999999]">{`${testimonial.author.handle}`}</div>

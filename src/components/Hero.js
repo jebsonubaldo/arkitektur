@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Example() {
     return (
       <div className="bg-white">
@@ -29,9 +31,11 @@ export default function Example() {
                   </a>
                 </div>
               </div>
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1567532900872-f4e906cbf06a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=80"
                 alt=""
+                width={0}
+                height={0}
                 className="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
               />
             </div>

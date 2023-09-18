@@ -84,7 +84,7 @@ export default function Example() {
               
             </div>
             <div className="lg:pr-4">
-              <img src="/images/image_3.jpg" alt="image_3" className="h-full w-full object-cover object-center" />
+              <Image width={0} height={0} src="/images/image_3.jpg" alt="image_3" className="h-full w-full object-cover object-center" />
             </div>
           </div>
         </div>
