@@ -4,10 +4,10 @@ import parse from "html-react-parser";
 import Image from "next/image";
 import React from "react";
 
-export const getStaticPaths = async ({ post }) => {
+export const getStaticPaths = async () => {
   try {
     const res = await fetch(
-      "https://dev-arkitektur-headless.pantheonsite.io//wp-json/wp/v2/posts"
+      "https://dev-arkitektur-headless.pantheonsite.io/wp-json/wp/v2/posts"
     );
     if (!res.ok) {
       throw new Error("Failed to fetch data");
@@ -57,9 +57,7 @@ export const getStaticProps = async (context) => {
 };
 
 export default function Details({ post }) {
-  // Check if post is null (indicating an error fetching data)
   if (!post) {
-    // Handle the case where post is null (e.g., display an error message)
     return (
       <div className="bg-white pb-24">
         <p>Error loading post data.</p>
