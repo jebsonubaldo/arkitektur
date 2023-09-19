@@ -57,6 +57,16 @@ export const getStaticProps = async (context) => {
 };
 
 export default function Details({ post }) {
+  // Check if post is null (indicating an error fetching data)
+  if (!post) {
+    // Handle the case where post is null (e.g., display an error message)
+    return (
+      <div className="bg-white pb-24">
+        <p>Error loading post data.</p>
+      </div>
+    );
+  }
+
   const addSpacesBeforeH4AndParagraphs = (content) => {
     content = content.replace(/<h4/g, "<p>&nbsp;</p><h4");
     content = content.replace(/<p>/g, "<p>&nbsp;</p>");
