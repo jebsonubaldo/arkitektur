@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const playfair_display = Playfair_Display({ subsets: ["latin"] });
 
-export default function Example({ post }) {
+export default function Example() {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);

@@ -54,7 +54,7 @@ export const getStaticProps = async (context) => {
   }
 };
 
-export default function Example({post}) {
+export default function Example() {
   return (
     <div className="bg-white pb-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">

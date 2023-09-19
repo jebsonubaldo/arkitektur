@@ -4,7 +4,7 @@ import parse from "html-react-parser";
 import Image from "next/image";
 import React from "react";
 
-export const getStaticPaths = async () => {
+export const getStaticPaths = async ({post}) => {
   try {
     const res = await fetch(
       "https://dev-arkitektur-headless.pantheonsite.io//wp-json/wp/v2/posts"
