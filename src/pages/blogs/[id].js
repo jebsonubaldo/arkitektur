@@ -4,7 +4,7 @@ import parse from "html-react-parser";
 import Image from "next/image";
 import React from "react";
 
-export const getStaticPaths = async ({post}) => {
+export const getStaticPaths = async ({ post }) => {
   try {
     const res = await fetch(
       "https://dev-arkitektur-headless.pantheonsite.io//wp-json/wp/v2/posts"
@@ -56,7 +56,7 @@ export const getStaticProps = async (context) => {
   }
 };
 
-export default function Example({ post }) {
+export default function Details({ post }) {
   const addSpacesBeforeH4AndParagraphs = (content) => {
     content = content.replace(/<h4/g, "<p>&nbsp;</p><h4");
     content = content.replace(/<p>/g, "<p>&nbsp;</p>");
